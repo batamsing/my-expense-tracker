@@ -1,0 +1,52 @@
+/* .each-transaction {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+} */
+
+.minus-border {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    border-right: 3px solid #ff0000;
+}
+
+.plus-border {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    border-right: 3px solid #0084ff;
+}
+
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  height: 100%;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  }
+
+  li:hover .delete-btn {
+    opacity: 1;
+  }
